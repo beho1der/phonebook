@@ -1,0 +1,9 @@
+<?php
+
+$_CONFIG = array(
+	'root_path' => dirname(__FILE__) . '/php/',
+	'encoding' => 'utf-8',
+	'pdo_dsn'  => 'mysql:dbname=phone_book;host=localhost',
+	'pdo_user' => 'phone',
+	'pdo_pass' => '137137',
+);

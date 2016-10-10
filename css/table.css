@@ -1,0 +1,108 @@
+/* tables */
+
+table.tableusers {
+	margin:0px 0pt 15px;
+	width: 100%;background: #ccc;
+	border-radius: 8px 8px 0px 0px;
+}
+
+table.tableusers thead tr th, table.tableusers tfoot tr th {
+	background: #DFEFFC ;
+	text-align: left;
+	font-size: 12px;
+	padding:5px; 
+	color: #136284;
+	font-family:  Arial, sans-serif;
+	text-shadow: #fff 1px 1px 1px;
+	text-transform:uppercase;
+	cursor:pointer;
+
+}
+
+table.tableusers thead tr th.first-th.header  {	
+	border-radius: 8px 0px 0px 0px;
+} 
+
+table.tableusers thead tr th.end-th.header  {	
+	border-radius: 0px 8px 0px 0px;
+} 
+
+table.tableusers thead tr .header {
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	font-size:10px;
+	background-position: center right;
+}
+table.tableusers tbody td {
+	color: #2D6277;
+	padding: 4px;
+	background-color: #FFF;
+	font-family:  Arial, sans-serif;
+	text-shadow: #d7d7d7 1px 1px 1px;	
+	font-size:12px;
+}
+
+table.tableusers tbody td a {
+        text-decoration:none;
+        color:#1773a6;
+        background:transparent;
+}
+
+table.tableusers tbody td .user_edit {text-decoration:none;
+        color:#1773a6;
+		border-bottom:1px dotted #1773a6;
+        background:transparent;}
+		
+table.tableusers tbody td .user_edit:hover {text-decoration:none;
+        color:#9a3f3f;
+		border-bottom:1px dotted #1773a6;
+        background:transparent;}
+		
+table.tableusers .mail {text-decoration:underline}
+
+table.tableusers .mail:hover {color:#ff4444;text-decoration:none }
+
+
+
+table.tableusers tbody tr.odd td {
+	background-color:#dfeff6;
+	vertical-align: middle;
+}
+
+table.tableusers tbody tr.even td {
+	background-color:#f5f5f5;
+	vertical-align: middle;
+}
+
+table.tableusers thead tr .headerSortUp {
+	background-image: url(../images/asc.gif);
+	font-size: 10px;
+	color: #255162;
+	cursor:pointer;
+	font-family:  Arial, sans-serif;
+	text-shadow: #e5e5e5 1px 1px 1px;
+	text-transform:uppercase;
+}
+
+table.tableusers thead tr .headerSortUp :hover{cursor:pointer;}
+
+table.tableusers thead tr .headerSortDown {
+	background-image: url(../images/desc.gif);
+	font-size: 10px;
+	color: #255162;
+	cursor:pointer;
+	font-family:  Arial, sans-serif;
+	text-shadow: #fff 1px 1px 1px;
+	text-transform:uppercase;
+}
+
+table.tableusers thead tr .headerSortDown, table.tableusers thead tr .headerSortUp {
+background-color: #80d4f8;
+}
+
+.tableusers li {list-style-type:none}
+
+table.tableusers tbody tr.odd .lock {background-color:#ffc9ba;vertical-align: middle;text-align:center;}
+table.tableusers tbody tr.odd .unlock {background-color:#bdffba;vertical-align: middle;text-align:center;}
+table.tableusers tbody tr.even .lock {background-color:#ffc9ba;vertical-align: middle;text-align:center;}
+table.tableusers tbody tr.even .unlock {background-color:#bdffba;vertical-align: middle;text-align:center;}
